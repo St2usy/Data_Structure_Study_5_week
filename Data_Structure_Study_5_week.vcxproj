@@ -140,6 +140,15 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="ArrayList.h" />
+    <ClInclude Include="DbLinkedDeque.h" />
+    <ClInclude Include="DbLinkedList.h" />
+    <ClInclude Include="Linkedlist.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Node2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DbLinkedListcpp.cpp" />
+    <ClCompile Include="Linkedlist.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
